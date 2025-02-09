@@ -11,7 +11,7 @@ high_score = 0
 # Creating a window screen
 wn = turtle.Screen()
 wn.title("Snake Game")
-wn.bgcolor("blue")
+wn.bgcolor("black")
 # the width and height can be put as user's choice
 wn.setup(width=600, height=600)
 wn.tracer(0)
@@ -26,7 +26,7 @@ head.direction = "Stop"
 
 # food in the game
 food = turtle.Turtle()
-colors = random.choice(['red', 'green', 'black'])
+colors = random.choice(['red', 'yellow', 'orange'])
 shapes = random.choice(['square', 'triangle', 'circle'])
 food.shape(shapes)
 food.color(colors)
